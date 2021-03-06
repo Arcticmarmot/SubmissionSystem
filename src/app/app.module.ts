@@ -14,10 +14,10 @@ import {MatIconModule} from '@angular/material/icon';
     AppComponent,
   ],
   imports: [
-    PageModule,
-    ServiceModule,
     BrowserModule,
     BrowserAnimationsModule,
+    PageModule,
+    ServiceModule,
     AppRoutingModule,
     MatToolbarModule,
     MatIconModule,

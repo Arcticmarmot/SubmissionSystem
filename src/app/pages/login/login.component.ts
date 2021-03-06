@@ -12,7 +12,7 @@ export class LoginComponent implements OnInit {
     account: ['', Validators.required],
     password: ['', Validators.required]
   });
-
+  hide = true;
   constructor(private fb: FormBuilder) { }
 
   ngOnInit(): void {
